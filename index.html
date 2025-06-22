@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="bn">
 <head>
@@ -308,7 +309,7 @@
                     <p class="text-gray-300 mb-4 lang-bn">
                         আপনার কোনো প্রশ্ন থাকলে বা সহায়তার প্রয়োজন হলে নির্দ্বিধায় যোগাযোগ করুন।
                     </p>
-                    <p class="text-300 mb-4 lang-en hidden">
+                    <p class="text-gray-300 mb-4 lang-en hidden">
                         Feel free to contact us if you have any questions or need assistance.
                     </p>
                     <a href="mailto:maheshwarchandra.dev@gmail.com" class="btn-primary text-base px-6 py-3 inline-flex items-center justify-center">
@@ -348,7 +349,20 @@
                 document.documentElement.lang = 'bn';
                 currentLang = 'bn';
             }
+            // Update the button text after toggling
+            updateLangToggleButtonText();
         }
+
+        // Function to update the language toggle button text
+        function updateLangToggleButtonText() {
+            const langToggleButton = document.getElementById('lang-toggle');
+            if (currentLang === 'bn') {
+                langToggleButton.innerHTML = '<span class="lang-bn">English</span><span class="lang-en hidden">বাংলা</span>';
+            } else {
+                langToggleButton.innerHTML = '<span class="lang-bn hidden">English</span><span class="lang-en">বাংলা</span>';
+            }
+        }
+
 
         // Event listener for language toggle button
         document.getElementById('lang-toggle').addEventListener('click', toggleLanguage);
@@ -389,8 +403,13 @@
 
         // Initialize language display based on default
         document.addEventListener('DOMContentLoaded', () => {
-            toggleLanguage(); 
-            toggleLanguage(); 
+            // Set initial language to Bengali as per 'lang="bn"' in HTML
+            // This ensures Bengali content is visible by default
+            currentLang = 'bn'; 
+            // Call toggleLanguage once to ensure correct initial state of elements if needed, 
+            // and to set the initial button text.
+            // If all 'lang-en' elements start hidden, no need to call it twice.
+            updateLangToggleButtonText(); // Set button text initially
         });
     </script>
 </body>
