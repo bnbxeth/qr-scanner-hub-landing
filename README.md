@@ -19,11 +19,9 @@ QR Scanner Hub brings you a state-of-the-art scanning experience:
 
 See how the app looks and functions with these screenshots:
 
-| Live Scanning | Result Display | Settings | Gallery Scan |
+| Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 |
 | :-------------: | :-------------: | :--------: | :-----------: |
-| ![Live Scanning](images/Screenshot%202025-06-22%20at%202.13.59%20PM.jpg) | ![Result Display](images/IMAGE%202025-06-22%2015:05:28.jpg) | ![Settings Screen](images/IMAGE%202025-06-22%2015:05:31.jpg) | ![Gallery Scan](images/IMAGE%202025-06-22%2015:05:33.jpg) |
-| ![Additional Screenshot 1](images/Screenshot%202025-06-22%20at%207.39.59%20PM.jpg) | ![Additional Screenshot 2](images/Screenshot%202025-06-22%20at%207.42.01%20PM.jpg) | ![Additional Screenshot 3](images/Screenshot%2025-06-22%20at%23.22.10%20PM.jpg) | ![Additional Screenshot 4](images/Screenshot%202025-06-22%20at%2011.26.16%20PM.jpg) |
-| ![Additional Screenshot 5](images/IMAGE%202025-06-22%2023:30:41.jpg) | | | |
+| ![App Screenshot 1](images/screenshot1.png) | ![App Screenshot 2](images/screenshot2.png) | ![App Screenshot 3](images/screenshot3.png) | ![App Screenshot 4](images/screenshot4.png) |
 
 ## 🚀 How to Use
 
